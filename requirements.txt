@@ -1,0 +1,7 @@
+pytorch-transformers
+unidecode
+tensorboardX
+BeautifulSoup4
+aiohttp
+lxml
+html2text
