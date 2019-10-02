@@ -8,9 +8,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 import argparse
-from tokenizer import GPT2Tokenizer
 from random import randint
-from pytorch_transformers import GPT2LMHeadModel, GPT2Config
+from pytorch_transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Config
 from data import PromptDataset, TextDataset
 from data.util import wp_preprocess, compose
 

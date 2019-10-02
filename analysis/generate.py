@@ -7,8 +7,7 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 import argparse
-from tokenizer import GPT2Tokenizer
-from pytorch_transformers import GPT2LMHeadModel, GPT2Config
+from pytorch_transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Config
 
 def top_p_logits(logits, p=0.9):
     """
