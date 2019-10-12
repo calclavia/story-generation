@@ -1,4 +1,4 @@
-transformers
+pytorch_pretrained_bert
 unidecode
 tensorboardX
 BeautifulSoup4
