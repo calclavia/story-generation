@@ -10,7 +10,7 @@ import numpy as np
 import argparse
 from random import randint
 from datetime import datetime
-from pytorch_transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Config
+from transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Config
 from data.util import prepare_dataset
 from train import compute_ranking_lp
 

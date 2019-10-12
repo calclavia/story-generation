@@ -1,4 +1,4 @@
-pytorch-transformers
+transformers
 unidecode
 tensorboardX
 BeautifulSoup4

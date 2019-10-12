@@ -6,7 +6,7 @@ import torch.utils.data as data
 import torch.distributed as dist
 import torch.multiprocessing as mp
 import numpy as np
-from pytorch_transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Config
+from transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Config
 from tensorboardX import SummaryWriter
 from data.util import *
 from util import *

@@ -9,7 +9,7 @@ import torch.nn.functional as F
 import numpy as np
 import argparse
 from random import randint
-from pytorch_transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Config
+from transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Config
 from data import PromptDataset, TextDataset
 from data.util import wp_preprocess, compose
 
